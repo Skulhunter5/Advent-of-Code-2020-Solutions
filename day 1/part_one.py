@@ -1,10 +1,8 @@
-file = open("res/expense report", 'r')
-lines = file.readlines()
+with open("res/expense report", 'r'):
+	nums = map(int, files.readlines())
 
-for a in lines:
-	for b in lines:
-		a = int(a)
-		b = int(b)
+for a in nums:
+	for b in nums:
 		if(a == b):
 			continue
 		if(a + b == 2020):
