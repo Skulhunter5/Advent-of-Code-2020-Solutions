@@ -1,7 +1,7 @@
 with open("res/passwords", 'r') as file:
 	lines = file.readlines()
 '''
-Replace "res/passwords" with the path of your file containing the inputs or
+Replace "res/passwords" with the path to your file containing the inputs or
 replace "file.readlines()" with a string containing the inputs
 '''
 
