@@ -1,5 +1,5 @@
 # Replace the following code block with how you want to load your inputs
-with open("boarding passes", 'r') as file:
+with open("res/boarding passes", 'r') as file:
 	lines = file.readlines()
 for i in range(len(lines)):
 	lines[i] = lines[i].replace('\n', '')
