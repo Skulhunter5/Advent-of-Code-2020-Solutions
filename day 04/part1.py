@@ -1,4 +1,3 @@
-# Replace the following code block with how you want to load your inputs
 with open("res/passports", 'r') as file:
 	lines = file.readlines()
 for i in range(len(lines)):

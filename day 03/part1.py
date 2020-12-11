@@ -1,4 +1,3 @@
-# Replace the following code block with how you want to load your inputs
 with open("trees", 'r') as file:
 	rows = file.readlines()
 for i in range(len(rows)):
