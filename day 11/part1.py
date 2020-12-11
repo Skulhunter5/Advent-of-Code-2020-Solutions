@@ -2,7 +2,6 @@ from itertools import product
 from copy import deepcopy
 from typing import Callable
 
-
 def get_adjacent_occupants(grid, row, seat):
     cols = filter(lambda n: 0 <= n < len(grid[0]), [seat + x for x in [-1, 0, 1]])
     seats = filter(lambda n: 0 <= n < len(grid), [row + x for x in [-1, 0, 1]])
