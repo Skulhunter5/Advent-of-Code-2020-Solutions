@@ -1,4 +1,4 @@
-with open("res/answers", 'r') as file:
+with open("answers", 'r') as file:
 	lines = file.readlines()
 for i in range(len(lines)):
 	lines[i] = lines[i].replace('\n', '')

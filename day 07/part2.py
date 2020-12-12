@@ -1,2 +1,4 @@
-with open("res/answers", 'r') as file:
+# There is no solution yet
+
+with open("regulations", 'r') as file:
 	lines = file.readlines()

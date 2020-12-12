@@ -1,4 +1,4 @@
-with open("res/boarding passes", 'r') as file:
+with open("boarding passes", 'r') as file:
 	lines = file.readlines()
 for i in range(len(lines)):
 	lines[i] = lines[i].replace('\n', '')

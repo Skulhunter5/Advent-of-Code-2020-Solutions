@@ -1,4 +1,4 @@
-with open("res/passports", 'r') as file:
+with open("passports", 'r') as file:
 	lines = file.readlines()
 for i in range(len(lines)):
 	lines[i] = lines[i].replace('\n', '')
